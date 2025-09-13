@@ -5,17 +5,16 @@ body {
   background-color: #EDEDED;
 }
 
-
 h1, h2, h3, h4, h5, h6 {
-  color: #2f4f6f;               
+  color: #2f4f6f;
   border-bottom: 1px solid #929CA4;
 }
 
 body p:first-of-type::first-letter {
   font-size: 30px;
   text-transform: lowercase;
+  font-weight: normal;      
 }
-
 
 .solution {
   color: #CC1C0D;
@@ -48,6 +47,12 @@ a[href^="http"]:active {
 
 ul {
   list-style: none;
+  padding-left: 0;   
+  margin-left: 0;    
+}
+ul li {              
+  padding-left: 0;
+  margin-left: 0;
 }
 
 ul li:first-child {
